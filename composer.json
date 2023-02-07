@@ -1,0 +1,21 @@
+{
+    "name": "pashkevich-s-d/trainee-telegram-bot-client",
+    "description": "Telegram bot client example",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PashkevichSD\\TraineeTelegramBotClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergei Pashkevich",
+            "email": "pashkevich.s.d@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^6.0",
+        "symfony/http-foundation": "^6.0",
+        "symfony/dependency-injection": "^6.0"
+    }
+}
